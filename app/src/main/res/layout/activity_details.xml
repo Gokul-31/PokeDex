@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Back"
+    tools:context=".Details">
+
+    <TextView
+        android:id="@+id/FormsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/forms"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/WeightText"
+        app:layout_constraintTop_toTopOf="@+id/forms" />
+
+    <ImageView
+        android:id="@+id/pokeImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/Back"
+        android:padding="3dp"
+        android:text="@string/_0"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/height"
+        app:layout_constraintStart_toEndOf="@+id/idText"
+        app:layout_constraintTop_toBottomOf="@id/pokeImage" />
+
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/Back"
+        android:padding="3dp"
+        android:text="@string/_0"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/weight"
+        app:layout_constraintStart_toEndOf="@+id/HeightText"
+        app:layout_constraintTop_toBottomOf="@+id/id" />
+
+    <TextView
+        android:id="@+id/be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/Back"
+        android:padding="3dp"
+        android:text="@string/_0"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/ability"
+        app:layout_constraintStart_toEndOf="@+id/BeText"
+        app:layout_constraintTop_toBottomOf="@+id/forms" />
+
+    <TextView
+        android:id="@+id/ability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/Back"
+        android:padding="3dp"
+        android:text="@string/_0"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/AbilityText"
+        app:layout_constraintTop_toBottomOf="@+id/be" />
+
+    <TextView
+        android:id="@+id/forms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/Back"
+        android:padding="3dp"
+        android:text="@string/_0"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/be"
+        app:layout_constraintStart_toEndOf="@+id/FormsText"
+        app:layout_constraintTop_toBottomOf="@+id/types" />
+
+    <TextView
+        android:id="@+id/types"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/Back"
+        android:padding="3dp"
+        android:text="@string/_0"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/forms"
+        app:layout_constraintStart_toEndOf="@+id/TypeText"
+        app:layout_constraintTop_toBottomOf="@+id/weight" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/Back"
+        android:padding="3dp"
+        android:text="@string/_0"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/types"
+        app:layout_constraintStart_toEndOf="@+id/WeightText"
+        app:layout_constraintTop_toBottomOf="@+id/height" />
+
+    <TextView
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/id"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/id" />
+
+    <TextView
+        android:id="@+id/HeightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/height"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/idText"
+        app:layout_constraintTop_toTopOf="@+id/height" />
+
+    <TextView
+        android:id="@+id/WeightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/weight"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/HeightText"
+        app:layout_constraintTop_toTopOf="@+id/weight" />
+
+    <TextView
+        android:id="@+id/AbilityText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/abilities"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/WeightText"
+        app:layout_constraintTop_toTopOf="@+id/ability" />
+
+    <TextView
+        android:id="@+id/BeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/base_experience"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/WeightText"
+        app:layout_constraintTop_toTopOf="@+id/be" />
+
+    <TextView
+        android:id="@+id/TypeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/types_"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/WeightText"
+        app:layout_constraintTop_toTopOf="@+id/types" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/pokeImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="35dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

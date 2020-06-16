@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PokeDexProper</string>
+    <string name="names">Names</string>
+    <string name="types">Types</string>
+    <string name="items">Items</string>
+    <string name="region">Regions</string>
+    <string name="locations">Locations</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">Loading</string>
+    <string name="forms">Forms :</string>
+    <string name="_0">0</string>
+    <string name="height">Height :</string>
+    <string name="id">Id :</string>
+    <string name="weight">Weight :</string>
+    <string name="abilities">Abilities :</string>
+    <string name="base_experience">Base Experience :</string>
+    <string name="types_">Types :</string>
+</resources>
